@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+}
+
+
+/* header & navbar styles */
+.header {
+    text-align: center;
+    margin: 0 15%;
+    font-size: 2rem;
+
+}
+
+
+.header h1 {
+    color: bisque; 
+    font-family: 'Crimson Pro', serif;
+}
+
+
+.navbar {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin: 0 15% 2%;
+   /* background-image: url('images/yura-timoshenko-sqWVOkLn0Qg-unsplash.jpg'); */
+}
+
+
+.navbar p {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    background-color: black;
+    padding: 1% 2%;
+}
+
+/* About us section */
+
+.about-us-picture {
+    margin: 0 15%;
+    max-width: 1500px;
+    height: 600px; 
+    background-image: url('images/lexie-barnhorn-8XyhALsPunE-unsplash.jpg');
+    background-size: cover;
+    
+}
+
+
+.about-us {
+    color: #D2B48C;
+    text-align: center;
+    background-color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-us h2 {
+    font-family: 'Crimson Pro', serif;
+}
+
+
+/* Menu section */
+
+.menu {
+    color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 15%;
+
+}
+
+.item {
+display: inline-flex;
+width: 300px;
+flex-direction: column;
+padding: 2% 2%;
+}
+
+.item img {
+    width: 300px;
+    max-height: 400px;
+    border: 2px solid white;
+}
+
+.item h3 {
+    text-align: center;
+}
+
+.item p {
+    text-align: center;
+    font-size: 1.2rem;
+}
