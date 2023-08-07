@@ -26,6 +26,10 @@ body {
    /* background-image: url('images/yura-timoshenko-sqWVOkLn0Qg-unsplash.jpg'); */
 }
 
+a {
+    color: white;
+}
+
 
 .navbar p {
     display: inline-block;
@@ -33,6 +37,11 @@ body {
     text-decoration: underline;
     background-color: black;
     padding: 1% 2%;
+}
+
+a:hover {
+    color: bisque;
+
 }
 
 /* About us section */
@@ -61,6 +70,11 @@ body {
 
 .about-us h2 {
     font-family: 'Crimson Pro', serif;
+    font-size: 1.8rem;
+}
+
+.about-us p {
+font-size: 1.2rem;
 }
 
 
@@ -90,7 +104,7 @@ flex-direction: column;
 padding: 2% 2%;
 }
 
-.item img {
+.item-img {
     width: 300px;
     max-height: 400px;
     border: 2px solid white;
@@ -127,6 +141,11 @@ padding: 2% 2%;
     flex-direction: column;
     padding: 2% 2%;
     text-align: center;   
+}
+
+.staff p {
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .staff-img {
@@ -202,4 +221,33 @@ padding: 2% 2%;
     grid-column-end: 4; */
     align-self: center;
     justify-self: center;
+}
+
+
+/* JS styles */
+
+
+.img-newstyle{
+    width: 350px;
+    max-height: 400px;
+    border: 2px solid #F2CA46;
+}
+
+
+.newstyle {
+    display: inline-flex;
+    width: 400px;
+    height: 600px;
+    flex-direction: column;
+    padding: 2% 2%;
+    font-size: 24px;
+    color: white;
+    align-items: center;
+    /*justify-content: space-evenly; */
+}
+
+
+.personNewStyle {
+    font-size: 24px;
+    color: white;
 }

@@ -12,18 +12,18 @@
 </head>
 <body>
     <!-- Header & navbar section --> 
-    <div class="header">
+    <header class="header">
         <h1>Milano Coffee</h1>
-    </div>
-        <div class="navbar">
-    <p>About us</p>
-<p>Coffees and teas</p>
-   <p>Meet the team</p> 
-    </div>
+    </header>
+        <nav class="navbar">
+    <p><a href="#aboutUsDiv">About us</p></a>
+<p> <a href="#ourMenu">Coffees and teas</p></a>
+   <p><a href="#ourStaff">Meet the team</p></a> 
+        </nav>
         
 
     <!-- About us section --> 
-    <div class="about-us-picture">
+    <div id="aboutUsDiv" class="about-us-picture">
 <div class="about-us">
 <h2>Milano Coffee is located in the tiny village, Felsőzsebalja. We just call it Milano to make it sound more classy. </h2>
 <p>Located conveniently just down the train-station, Milano Coffee stands unique in our village. Being the only coffe in Felsőzsebalja, we don't have to be affraid of competition (too much honesty might just end our business though). </p>
@@ -32,34 +32,38 @@
     
     <!-- Coffees and teas section -->
 
-    <div class="section-heading menu-sign">
+    <div id="ourMenu" class="section-heading menu-sign">
         <h2>Our Menu</h2>
     </div>
 
     <div class="menu">
         <div class="item one">
-            <img src="images/content-pixie-m-gqDRzbJLQ-unsplash.jpg" alt="Teapot">
+            <img src="images/content-pixie-m-gqDRzbJLQ-unsplash.jpg" class = "item-img" alt="Teapot">
             <h3>Local green tea</h3>
             <p>First of all, our coffee is proud to present its best product, the tea. 100% homegrown leaves, locally sourced.</p>
             <p>(We buy it in the ABC-store nearby)</p>
         </div>
+
         <div class="item two">
-            <img src="images/mohammadreza-alidoost-xacOkVZnGfo-unsplash.jpg" alt="Cookie">
+            <img src="images/mohammadreza-alidoost-xacOkVZnGfo-unsplash.jpg" class = "item-img" alt="Cookie">
             <h3>Local cookies</h3>
             <p>Our selection of tea cakes, biscuits and cookies are made by our lovely (and very bored) grandmothers. The products change day by day, depending on what the grannies feel like baking that day.</p>
         </div>
+
         <div class="item three">
-            <img src="images/shuvro-mojumder-cORsx4FbSZ8-unsplash.jpg" alt="Coffee cup">
+            <img src="images/shuvro-mojumder-cORsx4FbSZ8-unsplash.jpg"  class = "item-img" alt="Coffee cup">
             <h3>Local coffee</h3>
             <p>Okay, okay, we don't grow our own coffe-beans (for now, we will see what global warming might do in the future). But we do grind them locally, with local workforce and locally-made grinder machine! </p>
         </div>
+
         <div class="item four">
-            <img src="images/vishwajeet-nishad-G8GuZK_6PK8-unsplash.jpg" alt="Breakfast">
+            <img src="images/vishwajeet-nishad-G8GuZK_6PK8-unsplash.jpg" class = "item-img" alt="Breakfast">
             <h3>Local food</h3>
             <p>Local pig, local egg, local wheat, local butter, local cucumber, local spinach, local water (drink carefully)</p>
         </div>
+        
         <div class="item five">
-            <img src="images/rodion-kutsaiev-TFDy0unG4sI-unsplash.jpg" alt="Mushroom plate">
+            <img src="images/rodion-kutsaiev-TFDy0unG4sI-unsplash.jpg" class = "item-img" alt="Mushroom plate">
             <h3>Agaricus bisporus</h3>
             <p>We won't judge you for ordering three pieces of (local!) mushrooms</p>
         </div>
@@ -67,7 +71,7 @@
     
     <!-- Staff section -->
 
-    <div class="section-heading staff-sign">
+    <div id="ourStaff" class="section-heading staff-sign">
         <h2>Meet our staff</h2>
     </div>
 
@@ -96,12 +100,6 @@
     <p>Our studentworker, Pista. He's usually at the café instead of attending his classes, but that's 100% his decision</p>
 </div>
 
-<!-- <div class="person person-five">
-    <img src="images/staff/fei-chao-l_DG3TjRYhU-unsplash.jpg" alt="Master Lu">
-    <h3>Master Lu</h3>
-    <p>Master Lu mainly dedicates his time to work on perfecting the sourdough recipes at the café. Master Lu used to be a michelin star chef, however he prefers the tranquility of the countryside over the buzzing of the capital.</p>
-</div> -->
-
 <div class="person person-six">
     <img src="images/staff/andrey-k-EZ3QxAkdk7A-unsplash.jpg" alt="Writer lady" class="staff-img">
     <h3>Writer Lady</h3>
@@ -113,7 +111,7 @@
     </div>
 
 
-
+<script src="style.js"></script>
 
 </body>
 </html>
